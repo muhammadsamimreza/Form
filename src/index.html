@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+</head>
+
+<body>
+  
+
+  <section id="mainForm">
+    <div style="background: linear-gradient(90deg, rgba(76, 175, 80, 1) 0%, rgba(49, 220, 255, 1) 100%);" class="container mx-auto border border-red-500 px-10">
+      <section id="header">
+        <div class="container mx-auto space-y-10">
+          <div class="container mx-auto flex justify-between items-center py-5">
+            <div>
+              <img class="w-24" src="/images/RCC.webp" alt="">
+
+            </div>
+            <div class="text-center space-y-1">
+              <h1 class="text-4xl font-bold">RCCESDI Trainning</h1>
+
+              <h3>9th Floor, Ennex Building, Rajshahi City Corporation,
+                Rajshahi GPO-6000.</h3>
+              <h2>Email: info@rccesdi.com</h2>
+
+            </div>
+            <div class="">
+              <div class="w-32 h-40 border border-black flex place-content-center items-center p-6">
+                <input class="text-xs" type="file" name="fl" id="">
+              </div>
+
+            </div>
+          </div>
+          <div class="text-center">
+            <h1
+              class="text-3xl bg-green-900 inline-block p-1 border-x-4 text-white font-medium rounded-full border-yellow-500">
+              COURSE REGISTRATION FORM</h1>
+          </div>
+        </div>
+      </section>
+
+      <section id="form" class="mt-10">
+        <div class="container mx-auto">
+          <div class="flex justify-between">
+            <div class=" flex space-x-4">
+              <label class="text-xl " for="type">Registration Point:</label>
+              <div class="space-x-2">
+                <input type="radio" id="oln" name="online">
+                <label for="base">Online</label>
+              </div>
+            </div>
+            <div class="">
+              <span class="text-xl font-medium">Date:</span>
+              <input class="border border-black" type="date">
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section>
+        <label for="user">Full Name (Block Letter):</label> <br>
+        <input class="w-full border" type="text">
+        <div class="grid grid-cols-2">
+          <div class="">
+            <label for="number">1st Contact:</label>
+            <input class="w-[95%] border" type="text">
+          </div>
+          <div><label for="number">2nd Contact:</label>
+            <input class="w-full border" type="text"><br>
+          </div>
+        </div>
+        <label for="Email">E-mail Address:</label>
+        <input class="w-full border" type="mail" name="usermail">
+        <label for="id">National ID (Optional):</label>
+        <input class="w-full border" type="id" name="userid">
+        <label for="Address">Mailing Address:</label>
+        <input class="w-full border" type="address" name="useraddress">
+
+        <div>
+          Educational Level:
+          <input type="checkbox" name="" id=""> Diploma
+          <input type="checkbox" name="" id=""> B.Sc
+          <input type="checkbox" name="" id=""> M.Sc
+          <input type="checkbox" name="" id=""> Others
+        </div>
+        <div>
+          Occupation:
+          <input type="checkbox" name="" id=""> Student
+          <input type="checkbox" name="" id=""> Job Holder
+          <input type="checkbox" name="" id=""> Others
+        </div>
+        <label for="info">Organization/Institute</label>
+        <input class="w-full border" type="text" name="userinfo">
+        <label for="info">Course Name</label>
+        <input class="w-full border" type="text" name="userinfo">
+
+      </section>
+
+      <section>
+        <div class="flex space-x-24">
+          <h1>Condition:</h1>
+          <div class="flex">
+            <input type="checkbox" name="" id="">
+            <p>I hereby declare that the information provided is true and correct. In case any of the above information
+              is
+              found to be false or untrue or misleading or misrepresenting, I am aware that I may be held liable for it.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </section>
+
+</body>
+
+</html>
